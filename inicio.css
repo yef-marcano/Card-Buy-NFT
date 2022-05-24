@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 0px;
+  background: linear-gradient(90deg, rgb(245, 127, 23), rgb(233, 30, 99), rgb(156, 39, 176), rgb(63, 81, 181));
+  height: 100vh;
+  width: 100vw;
+  background-size: 600% 100%;
+  background-repeat: no-repeat;
+  animation: mygradient 24s linear infinite alternate
+}
+
+.card{
+    background-color: black;
+}
+.card-body{
+    color: #fff;
+}
+
+.inicio {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.inicio .form-floating:focus-within {
+  z-index: 2;
+}
+
+.inicio input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.inicio input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
