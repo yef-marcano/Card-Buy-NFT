@@ -1,8 +1,10 @@
+/* Para ocupar toda la pantalla */
 html,
 body {
   height: 100%;
 }
 
+/*  Centrar los interno y agregar el fondo los padding son opcionales */
 body {
   display: flex;
   align-items: center;
@@ -11,50 +13,39 @@ body {
   margin: 0px;
   background: url(img/bg.svg) no-repeat;
   background-color: #E0E8FF;
-  /* background-position: center top; */
   background-size: contain;
-  /* background-position: cover; */
 }
-
+/* el fondo de la card que contiene la mascota */
 .card{
     background-color: #ffffff;
 }
+/* el color de; texto body card */
 .card-body{
     color: #fff;
 }
+/* color del titulo */
 .card-title{
   color: #222F51;
 }
+/* color de los textos */
 .card-text{
   color: #222f518e;
 }
+/* esto es el tamano maximo y un pading para mejorar la experiencia */
 .inicio {
-  max-width: 330px;
+  max-width: 390px;
   padding: 15px;
 }
-
-.inicio .form-floating:focus-within {
-  z-index: 2;
-}
-
-.inicio input[type="email"] {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.inicio input[type="password"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
+/* color del precio */
 .price{
   color: #37adde;
 }
+/* color del boton */
 .btn-primary{
   background-color: #37adde;
   border-color: #37adde;
 }
+/* efecto hover del boton */
 .btn:hover{
   background-color: #37adde;
   border-color: #37adde;
