@@ -9,21 +9,25 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   margin: 0px;
-  background: linear-gradient(90deg, rgb(245, 127, 23), rgb(233, 30, 99), rgb(156, 39, 176), rgb(63, 81, 181));
-  height: 100vh;
-  width: 100vw;
-  background-size: 600% 100%;
-  background-repeat: no-repeat;
-  animation: mygradient 24s linear infinite alternate
+  background: url(img/bg.svg) no-repeat;
+  background-color: #E0E8FF;
+  /* background-position: center top; */
+  background-size: contain;
+  /* background-position: cover; */
 }
 
 .card{
-    background-color: black;
+    background-color: #ffffff;
 }
 .card-body{
     color: #fff;
 }
-
+.card-title{
+  color: #222F51;
+}
+.card-text{
+  color: #222f518e;
+}
 .inicio {
   max-width: 330px;
   padding: 15px;
