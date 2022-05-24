@@ -48,3 +48,17 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+.price{
+  color: #37adde;
+}
+.btn-primary{
+  background-color: #37adde;
+  border-color: #37adde;
+}
+.btn:hover{
+  background-color: #37adde;
+  border-color: #37adde;
+  transform: scale(1.2);
+  transition: 0.3s;
+
+}
