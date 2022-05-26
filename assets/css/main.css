@@ -13,7 +13,8 @@
   --color-dark: #000000;
   --color-text-light: #ffffff;
   --color-title-dark: #fffe;
-  --background-price-dark: #5d5d5d;
+  --background-price-dark: #282A36;
+  --background-image-dark: url(/assets/img/bg-dark.svg) no-repeat;
 }
 
 /* Para ocupar toda la pantalla */
@@ -101,6 +102,7 @@ section{
 /* color del titulo */
 .card-title{
   color: var(--color-title);
+  font-weight: 800;
 }
 /* color de los textos */
 .card-text{
@@ -153,5 +155,6 @@ input[type="checkbox"]:checked ~ *{
   --color-text: var(--color-text-light);
   --color-title: var(--color-title-dark);
   --background-price: var(--background-price-dark);
+  --background-image: var(--background-image-dark);
 }
 /* Efecto night */
