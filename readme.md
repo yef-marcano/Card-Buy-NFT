@@ -1,7 +1,7 @@
 # [Card-Buy-NFT](https://github.com/yef-marcano/Card-Buy-NFT)
 
 <p align="center">
-  <img src="https://github.com/yef-marcano/Card-Buy-NFT/tree/main/assets/card-buy-nft.gif">
+  <img src="https://github.com/yef-marcano/Card-Buy-NFT/tree/main/assets/card-buy-nft.gif?raw=true">
   <p align="center">Card para compra de NFT con metamask.</p>
 </p>
 
